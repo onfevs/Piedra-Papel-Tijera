@@ -31,9 +31,6 @@ Puedes jugar al juego en vivo aquí: [https://onfevs.github.io/Piedra-Papel-Tije
 4. Espera a que la computadora haga su elección.
 5. Se mostrará un mensaje indicando si ganaste, perdiste o empataste.
 
-## Contribuciones
-
-¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, por favor crea un pull request.
 
 ## Créditos
 
