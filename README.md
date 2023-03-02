@@ -21,7 +21,7 @@ Este es un juego básico de piedra, papel o tijeras desarrollado con HTML, CSS y
 
 ![Demo del juego](demo.gif)
 
-Puedes jugar al juego en vivo aquí: [https://onfevs.github.io/rock-paper-scissors/](https://onfevs.github.io/rock-paper-scissors/)
+Puedes jugar al juego en vivo aquí: [https://onfevs.github.io/Piedra-Papel-Tijera/)
 
 ## Instalación y uso
 
