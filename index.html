@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Piedra, papel o tijera</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+</head>
+
+<body>
+    <h1>Piedra, papel o tijera</h1>
+    <div class="game">
+        <div class="score">
+            <div>
+                <!-- <span>Victorias:</span> -->
+                <span id="wins">0</span>
+            </div>
+            <div>
+                <!-- <span>Derrotas:</span> -->
+                <span id="losses">0</span>
+            </div>
+            <div>
+                <!-- <span>Empates:</span> -->
+                <span id="ties">0</span>
+            </div>
+        </div>
+        <div class="choices">
+            <button class="choice" id="rock">👊</button>
+            <button class="choice" id="paper">🤚</button>
+            <button class="choice" id="scissors">✌️</button>
+        </div>
+        <div class="result">
+            <h2 id="result-text">¿Piedra, papel o tijera?</h2>
+        </div>
+        <div class="buttons">
+            <button id="start-button">Comenzar</button>
+            <button id="reset-button">Reiniciar</button>
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/OnfeVS" target="_blank" class="footer-link"><i
+                        class="fab fa-facebook"></i></a></li>
+            <li><a href="https://wa.me/123456789" target="_blank" class="footer-link"><i
+                        class="fab fa-whatsapp"></i></a></li>
+            <li><a href="https://github.com/onfevs" target="_blank" class="footer-link"><i
+                        class="fab fa-github"></i></a></li>
+            <li> <a href="https://www.linkedin.com/in/onfevs/" target="_blank" class="footer-link"><i
+                        class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/onfevs/" target="_blank" class="footer-link"><i
+                        class="fab fa-instagram"></i></a></li>
+        </ul>
+        <p>© 2023 OnfeVS. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

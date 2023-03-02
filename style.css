@@ -1,0 +1,163 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.game {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+.score span {
+    font-size: 20px;
+}
+
+.score #wins {
+    background-color: #3E8E41;
+    color: #f0f0f0;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.score #losses {
+    background-color: #f44336;
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.score #ties {
+    background-color: rgb(255, 217, 0);
+    color: #f0f0f0;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.choice {
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    margin: 0 10px;
+    padding: 10px;
+    text-align: center;
+    /* Agregado para centrar el contenido */
+    width: 100px;
+    /* Agregado para hacer los círculos simétricos */
+    transition: transform 0.2s ease-in-out;
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.choice:hover {
+    transform: scale(1.1);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #3E8E41;
+}
+
+/* //Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Anime', sans-serif;
+    font-size: 1.2rem;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    margin: 0 0.5rem;
+    font-size: 2rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+footer li:hover {
+    transform: scale(1.2);
+}
+
+footer li a {
+    color: #fff;
+}
+
+footer li a:hover {
+    color: #ffa500;
+}
+
+footer p {
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+footer p:hover {
+    color: #ffa500;
+}
